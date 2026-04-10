@@ -1,4 +1,4 @@
-include("DMRGOpt.jl")
+include(joinpath(@__DIR__, "..", "src", "DMRGOpt.jl"))
 using .DMRGOpt
 
 # --- Parameters ---
